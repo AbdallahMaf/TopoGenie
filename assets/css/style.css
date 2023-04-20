@@ -148,7 +148,15 @@ h6,
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 70px;
+
+}
+
+#header .zome .logo img {
+  padding: 0;
+  margin-top: 60px;
+  max-height: 150px;
+
 }
 
 .scrolled-offset {
@@ -201,7 +209,9 @@ h6,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #000207;
+  color: #285bd4;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .navbar .dropdown ul {
