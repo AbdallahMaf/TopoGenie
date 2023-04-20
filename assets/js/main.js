@@ -243,3 +243,14 @@
   new PureCounter();
 
 })()
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+      if(this.scrollY >0){
+          $('#header').addClass("zome");
+      }else{
+          $('#header').removeClass("zome");
+      }
+      
+    })
+  });
